@@ -17,5 +17,23 @@ var PICTURES = [
   "w": 640,
   "h": 885,
   "caption": "Hans Simon Holtzbecker, Citrus sinensis (appelsin), 1649-1659."
+ },
+ {
+  "src": "img/Johanna-Fosie_Studie-af-aebler-og-paerer_1747.jpg",
+  "w": 640,
+  "h": 617,
+  "caption": "Johanna Fosie, Studie af æbler og pærer, 1747."
+ },
+ {
+  "src": "img/Hans-Simon-Holtzbecker_Ficus-carica-almindelig-figen_1649-1659.jpg",
+  "w": 640,
+  "h": 898,
+  "caption": "Hans Simon Holtzbecker, Ficus carica (almindelig figen), 1649-1659."
+ },
+ {
+  "src": "img/Johanna-Fosie_Studie-af-aeble-noedder-og-peberfrugter_1749.jpg",
+  "w": 640,
+  "h": 707,
+  "caption": "Johanna Fosie, Studie af æble, nødder og peberfrugter, 1749."
  }
 ];
