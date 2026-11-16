@@ -6,10 +6,15 @@
 <title>Asmus Leth Olsen</title>
 <meta name="description" content="Asmus Leth Olsen, Professor of Public Administration, Department of Political Science, University of Copenhagen.">
 <link rel="canonical" href="https://www.asmusolsen.com/">
+<base target="_blank">
 <style>
   body { background: #c0c0c0; color: #000; font-family: "Times New Roman", Times, serif; font-size: 14px; line-height: 1.2; margin: 0; padding: 22px 12px 40px; }
   h1 { text-align: center; font-size: 21px; letter-spacing: 1px; margin: 0 0 14px; }
   a { color: #00e; }
+  a:visited { color: #551a8b; }
+  h1 a, h1 a:visited { color: #00e; }
+  hr { width: 642px; max-width: 100%; margin: 0 auto 18px; }
+  .footer { width: 642px; max-width: 100%; margin: 0 auto; font-size: 12px; font-style: italic; }
   table.page { margin: 0 auto; border-collapse: collapse; }
   table.page td { width: 304px; vertical-align: top; padding: 0; }
   table.page td.gap { width: 34px; }
@@ -27,7 +32,8 @@
 </style>
 </head>
 <body>
-<h1><a href="./">Asmus Leth Olsen</a></h1>
+<h1><a href="./" target="_self">Asmus Leth Olsen</a></h1>
+<hr>
 <table class="page"><tr><td>
 
 <p class="center">Professor of Public Administration<br>Department of Political Science<br>University of Copenhagen<br>Denmark<br>ajlo[at]ifs.ku.dk<br><br>
@@ -46,16 +52,21 @@
 <p><a href="https://osf.io/n6sc5">”Correcting Crime Misperceptions with Statistics? Evidence from two Field Experiments in Online Local Media”</a> (with Anders Woller).</p>
 
 <img id="pic" src="img/Johanna-Fosie_Studie-af-groentsager_1750-1751.jpg" width="640" height="752" alt="Johanna Fosie, Studie af grøntsager, 1750-1751">
-<p id="cap" class="caption">Johanna Fosie, Studie af grøntsager, 1750-1751.</p>
-<script src="img/images.js?v=bcf64bd7" charset="utf-8"></script>
+<p id="cap" class="caption">Johanna Fosie, <a href="https://open.smk.dk/artwork/image/KKS6001/20">Studie af grøntsager</a>, 1750-1751.</p>
+<script src="img/images.js?v=0d761352" charset="utf-8"></script>
 <script>
   // Show a random picture from img/images.js on each visit; without JavaScript the default above stays.
   if (typeof PICTURES !== "undefined" && PICTURES.length) {
     var p = PICTURES[Math.floor(Math.random() * PICTURES.length)];
     var img = document.getElementById("pic");
     img.src = p.src; img.width = p.w; img.height = p.h;
-    img.alt = p.caption.replace(/\.$/, "");
-    document.getElementById("cap").textContent = p.caption;
+    img.alt = p.artist + ", " + p.title + ", " + p.year;
+    var cap = document.getElementById("cap"), a = document.createElement("a");
+    a.href = p.url; a.textContent = p.title;
+    cap.textContent = "";
+    cap.appendChild(document.createTextNode(p.artist + ", "));
+    cap.appendChild(a);
+    cap.appendChild(document.createTextNode(", " + p.year + "."));
   }
 </script>
 
@@ -77,5 +88,7 @@
 <p>”Behavioral Public Administration: Combining Insights from Public Administration and Psychology.” <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/puar.12609"><em>Public Administration Review</em></a> (with Stephan Grimmelikhuijsen, Sebastian Jilke and Lars Tummers).</p>
 
 </td></tr></table>
+<hr style="margin-top: 22px">
+<p class="footer">Last modified: <!--lastmod-->16 November 2026<!--/lastmod--></p>
 </body>
 </html>

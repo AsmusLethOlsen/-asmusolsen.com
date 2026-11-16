@@ -4,42 +4,63 @@ var PICTURES = [
   "src": "img/Johanna-Fosie_Studie-af-groentsager_1750-1751.jpg",
   "w": 640,
   "h": 752,
-  "caption": "Johanna Fosie, Studie af grøntsager, 1750-1751."
+  "artist": "Johanna Fosie",
+  "title": "Studie af grøntsager",
+  "year": "1750-1751",
+  "url": "https://open.smk.dk/artwork/image/KKS6001/20"
  },
  {
   "src": "img/Johanna-Fosie_Studie-af-majroe-og-guleroedder_1751.jpg",
   "w": 640,
   "h": 751,
-  "caption": "Johanna Fosie, Studie af majroe og gulerødder, 1751."
+  "artist": "Johanna Fosie",
+  "title": "Studie af majroe og gulerødder",
+  "year": "1751",
+  "url": "https://open.smk.dk/artwork/image/KKS6001/22"
  },
  {
   "src": "img/Hans-Simon-Holtzbecker_Citrus-sinensis-appelsin_1649-1659.jpg",
   "w": 640,
   "h": 885,
-  "caption": "Hans Simon Holtzbecker, Citrus sinensis (appelsin), 1649-1659."
+  "artist": "Hans Simon Holtzbecker",
+  "title": "Citrus sinensis (appelsin)",
+  "year": "1649-1659",
+  "url": "https://open.smk.dk/artwork/image/KKSgb2948/62"
  },
  {
   "src": "img/Johanna-Fosie_Studie-af-aebler-og-paerer_1747.jpg",
   "w": 640,
   "h": 617,
-  "caption": "Johanna Fosie, Studie af æbler og pærer, 1747."
+  "artist": "Johanna Fosie",
+  "title": "Studie af æbler og pærer",
+  "year": "1747",
+  "url": "https://open.smk.dk/artwork/image/KKS6001/10"
  },
  {
   "src": "img/Hans-Simon-Holtzbecker_Ficus-carica-almindelig-figen_1649-1659.jpg",
   "w": 640,
   "h": 898,
-  "caption": "Hans Simon Holtzbecker, Ficus carica (almindelig figen), 1649-1659."
+  "artist": "Hans Simon Holtzbecker",
+  "title": "Ficus carica (almindelig figen)",
+  "year": "1649-1659",
+  "url": "https://open.smk.dk/artwork/image/KKSgb2948/67"
  },
  {
   "src": "img/Johanna-Fosie_Studie-af-aeble-noedder-og-peberfrugter_1749.jpg",
   "w": 640,
   "h": 707,
-  "caption": "Johanna Fosie, Studie af æble, nødder og peberfrugter, 1749."
+  "artist": "Johanna Fosie",
+  "title": "Studie af æble, nødder og peberfrugter",
+  "year": "1749",
+  "url": "https://open.smk.dk/artwork/image/KKS6001/18"
  },
  {
   "src": "img/Johanna-Fosie_Studie-af-artiskok-og-blomkaalshoved_1751.jpg",
   "w": 640,
   "h": 764,
-  "caption": "Johanna Fosie, Studie af artiskok og blomkålshoved, 1751."
+  "artist": "Johanna Fosie",
+  "title": "Studie af artiskok og blomkålshoved",
+  "year": "1751",
+  "url": "https://open.smk.dk/artwork/image/KKS6001/23"
  }
 ];
