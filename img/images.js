@@ -35,5 +35,11 @@ var PICTURES = [
   "w": 640,
   "h": 707,
   "caption": "Johanna Fosie, Studie af æble, nødder og peberfrugter, 1749."
+ },
+ {
+  "src": "img/Johanna-Fosie_Studie-af-artiskok-og-blomkaalshoved_1751.jpg",
+  "w": 640,
+  "h": 764,
+  "caption": "Johanna Fosie, Studie af artiskok og blomkålshoved, 1751."
  }
 ];
