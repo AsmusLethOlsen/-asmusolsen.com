@@ -45,8 +45,19 @@
 <p><a href="https://osf.io/5wm6v/overview">”The Downstream Effects of Facts: A Field Experiment on 12 Noncontentious Issues”</a>.</p>
 <p><a href="https://osf.io/n6sc5">”Correcting Crime Misperceptions with Statistics? Evidence from two Field Experiments in Online Local Media”</a> (with Anders Woller).</p>
 
-<img src="johanna-fosie.jpg" width="640" height="752" alt="Johanna Fosie, Studie af grøntsager, 1750-1751">
-<p class="caption">Johanna Fosie, Studie af grøntsager, 1750-1751.</p>
+<img id="pic" src="img/Johanna-Fosie_Studie-af-groentsager_1750-1751.jpg" width="640" height="752" alt="Johanna Fosie, Studie af grøntsager, 1750-1751">
+<p id="cap" class="caption">Johanna Fosie, Studie af grøntsager, 1750-1751.</p>
+<script src="img/images.js" charset="utf-8"></script>
+<script>
+  // Show a random picture from img/images.js on each visit; without JavaScript the default above stays.
+  if (typeof PICTURES !== "undefined" && PICTURES.length) {
+    var p = PICTURES[Math.floor(Math.random() * PICTURES.length)];
+    var img = document.getElementById("pic");
+    img.src = p.src; img.width = p.w; img.height = p.h;
+    img.alt = p.caption.replace(/\.$/, "");
+    document.getElementById("cap").textContent = p.caption;
+  }
+</script>
 
 </td><td class="gap"></td><td>
 
