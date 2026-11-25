@@ -24,6 +24,7 @@
   td h2:first-child { margin-top: 0; }
   #pic { width: 100%; height: auto; display: block; border-left: 1px solid #333; border-top: 1px solid #333; margin-top: 40px; }
   h2 img { display: block; width: 100%; max-width: 420px; height: auto; border: 0; }
+  img.lab { display: block; margin: 40px auto 0; border: 0; }
   .caption { font-style: italic; font-size: 12px; margin-top: 20px; }
   @media (max-width: 680px) {
     table.page, table.page tr, table.page td { display: block; width: auto; }
@@ -52,24 +53,7 @@
 <p><a href="https://osf.io/5wm6v/overview">”The Downstream Effects of Facts: A Field Experiment on 12 Noncontentious Issues”</a>.</p>
 <p><a href="https://osf.io/n6sc5">”Correcting Crime Misperceptions with Statistics? Evidence from two Field Experiments in Online Local Media”</a> (with Anders Woller).</p>
 
-<img id="pic" src="img/Johanna-Fosie_Studie-af-groentsager_1750-1751.jpg" width="640" height="752" alt="Johanna Fosie, Studie af grøntsager, 1750-1751">
-<p id="cap" class="caption">Johanna Fosie, <a href="https://open.smk.dk/artwork/image/KKS6001/20">Studie af grøntsager</a>, 1750-1751.</p>
-<script src="img/images.js?v=0d761352" charset="utf-8"></script>
-<script>
-  // Show a random picture from img/images.js on each visit; without JavaScript the default above stays.
-  if (typeof PICTURES !== "undefined" && PICTURES.length) {
-    var p = PICTURES[Math.floor(Math.random() * PICTURES.length)];
-    var img = document.getElementById("pic");
-    img.src = p.src; img.width = p.w; img.height = p.h;
-    img.alt = p.artist + ", " + p.title + ", " + p.year;
-    var cap = document.getElementById("cap"), a = document.createElement("a");
-    a.href = p.url; a.textContent = p.title;
-    cap.textContent = "";
-    cap.appendChild(document.createTextNode(p.artist + ", "));
-    cap.appendChild(a);
-    cap.appendChild(document.createTextNode(", " + p.year + "."));
-  }
-</script>
+<img class="lab" src="img/bureaucracy_lab.gif?v=1" width="200" height="132" alt="Bureaucracy lab: a scientist pouring a test tube into a flask holding a government building">
 
 </td><td class="gap"></td><td>
 
